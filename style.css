@@ -623,8 +623,9 @@ img {
   font-weight: 950;
 }
 
+.card-summary,
 .card-summary strong {
-  color: var(--primary-strong);
+  color: var(--primary) !important;
 }
 
 .complete-check {
