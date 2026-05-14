@@ -1,4 +1,4 @@
-const CACHE_NAME = "ux-study-app-v19";
+const CACHE_NAME = "ux-study-app-v20";
 const CORE_ASSETS = [
   "index.html",
   "style.css",
