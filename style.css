@@ -623,6 +623,10 @@ img {
   font-weight: 950;
 }
 
+.card-summary strong {
+  color: var(--primary-strong);
+}
+
 .complete-check {
   position: absolute;
   top: 1rem;

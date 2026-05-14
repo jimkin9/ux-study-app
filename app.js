@@ -234,7 +234,7 @@ function stackedCard(card, index, progress) {
       <div class="card-content">
         <p class="eyebrow">${String(index + 1).padStart(2, "0")} · ${card.type}</p>
         <h2>${card.title}</h2>
-        <p><strong>${card.summary}</strong></p>
+        <p class="card-summary"><strong>${card.summary}</strong></p>
         <p>${card.details}</p>
         <p><strong>Example:</strong> ${card.example}</p>
         ${card.notice ? `<p><strong>Notice:</strong> ${card.notice}</p>` : ""}
