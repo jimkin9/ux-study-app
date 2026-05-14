@@ -298,8 +298,17 @@ img {
   color: var(--text);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.06);
   backdrop-filter: blur(22px);
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 900;
+  line-height: 1;
+  padding: 0;
+}
+
+.gear-symbol {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  transform: scale(1.18);
 }
 
 .shell,
