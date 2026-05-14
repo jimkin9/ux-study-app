@@ -289,10 +289,11 @@ img {
 }
 
 .icon-button {
-  display: grid;
+  display: inline-flex;
   width: 44px;
   height: 44px;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
   border: 1px solid color-mix(in srgb, var(--border) 76%, transparent);
   background: var(--glass);
   color: var(--text);
@@ -305,10 +306,15 @@ img {
 }
 
 .gear-symbol {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
   line-height: 1;
-  transform: scale(1.18);
+  width: 1em;
+  height: 1em;
+  transform: translateY(0.02em) scale(1.18);
+  transform-origin: center;
 }
 
 .shell,
