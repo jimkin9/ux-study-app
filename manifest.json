@@ -1,0 +1,17 @@
+{
+  "name": "UX Study App",
+  "short_name": "UX Study",
+  "description": "A private mobile-first study app for UX courses.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#28666e",
+  "icons": [
+    {
+      "src": "assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

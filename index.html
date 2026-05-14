@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#28666e" />
+    <title>UX Study App</title>
+    <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css?v=6" />
+  </head>
+  <body data-page="dashboard">
+    <header class="app-topbar simple-topbar">
+      <img class="home-logo" src="assets/Logo.svg" alt="GK" style="height:44px;width:auto;display:block;object-fit:contain;" />
+      <button class="icon-button" type="button" data-open-settings aria-label="Open settings">
+        <span aria-hidden="true">⚙︎</span>
+      </button>
+    </header>
+
+    <main class="shell">
+      <section class="dashboard-hero">
+        <div>
+          <h1>Study UX in focused cards, quizzes, and visual reviews.</h1>
+        </div>
+      </section>
+
+      <section class="course-grid" data-course-grid aria-label="Courses">
+        <a
+          class="course-card"
+          href="courses/course-03-mobile-ux-design.html?v=8"
+          data-course-card
+          data-course-id="course-03"
+          data-total-cards="12"
+        >
+          <div class="course-body">
+            <div class="course-meta">
+              <span class="course-small-number">01</span>
+              <span class="pill">Ready</span>
+            </div>
+            <h2>Mobile UX Design: The Beginner's Guide</h2>
+            <p>Responsive design, breakpoints, fluid layouts, and mobile-first thinking.</p>
+            <div class="course-progress" aria-label="0% complete" data-course-progress>
+              <span style="width: 0%"></span>
+            </div>
+            <div class="progress-scale" aria-hidden="true">
+              <span data-progress-current>0%</span>
+              <span>100%</span>
+            </div>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <aside class="settings-panel" data-settings-panel aria-hidden="true">
+      <div class="settings-card" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+        <div class="settings-head">
+          <h2 id="settings-title">Settings</h2>
+          <button class="icon-button" type="button" data-close-settings aria-label="Close settings">×</button>
+        </div>
+
+        <div class="setting-row">
+          <span>Mode</span>
+          <div class="icon-choice" data-theme-choices>
+            <button type="button" data-theme-choice="light" aria-label="Light mode">☼</button>
+            <button type="button" data-theme-choice="dark" aria-label="Dark mode">☾</button>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <span>Accent</span>
+          <div class="swatch-row" data-accent-choices>
+            <button class="swatch teal" type="button" data-accent-choice="teal" aria-label="Calm teal"></button>
+            <button class="swatch navy" type="button" data-accent-choice="navy" aria-label="Navy blue"></button>
+            <button class="swatch plum" type="button" data-accent-choice="plum" aria-label="Plum"></button>
+            <button class="swatch green" type="button" data-accent-choice="green" aria-label="Forest green"></button>
+            <button class="swatch ocean" type="button" data-accent-choice="ocean" aria-label="Ocean blue"></button>
+            <button class="swatch sunset" type="button" data-accent-choice="sunset" aria-label="Sunset"></button>
+            <button class="swatch candy" type="button" data-accent-choice="candy" aria-label="Candy"></button>
+            <button class="swatch mono-blue" type="button" data-accent-choice="mono-blue" aria-label="Black and blue"></button>
+            <button class="swatch contrast" type="button" data-accent-choice="contrast" aria-label="High contrast"></button>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <span>Text size</span>
+          <div class="stepper">
+            <button type="button" data-text-decrease aria-label="Decrease text size">−</button>
+            <strong data-text-size-value>0</strong>
+            <button type="button" data-text-increase aria-label="Increase text size">+</button>
+          </div>
+        </div>
+
+        <label class="toggle-row">
+          <input data-setting-motion type="checkbox" />
+          <span>Reduce motion</span>
+        </label>
+      </div>
+    </aside>
+
+    <script src="app.js?v=8"></script>
+  </body>
+</html>

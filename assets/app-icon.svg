@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #252b65;
+      }
+
+      .st1 {
+        fill: #7d7fa7;
+      }
+
+      .st2 {
+        fill: #a7a8c2;
+      }
+
+      .st3 {
+        opacity: .7;
+      }
+
+      .st3, .st4, .st5 {
+        fill: #fff;
+        isolation: isolate;
+      }
+
+      .st4 {
+        opacity: .9;
+      }
+
+      .st5 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <rect class="st0" width="512" height="512" rx="96" ry="96"/>
+  <g>
+    <polygon class="st4" points="321.2 203.5 190.8 203.5 190.8 203.5 147.3 128.2 364.7 128.2 321.2 203.5 321.2 203.5 321.2 203.5 321.2 203.5"/>
+    <polygon class="st3" points="321.2 203.5 321.2 203.5 408.2 203.5 299.5 391.8 256 316.5 256 316.5 321.2 203.5"/>
+    <polygon class="st5" points="190.8 203.5 190.8 203.5 190.8 203.5 190.8 203.5 256 316.5 256 316.5 256 316.5 212.5 391.8 103.8 203.5 190.8 203.5"/>
+  </g>
+  <g>
+    <polygon class="st2" points="-321.1 206.3 -435.9 206.3 -435.9 206.3 -474.2 140 -282.8 140 -321.1 206.3 -321.1 206.3 -321.1 206.3 -321.1 206.3"/>
+    <polygon class="st0" points="-321.1 206.3 -321.1 206.3 -244.6 206.3 -340.2 372 -378.5 305.7 -378.5 305.7 -321.1 206.3"/>
+    <polygon class="st1" points="-435.9 206.3 -435.9 206.3 -435.9 206.3 -435.9 206.3 -378.5 305.7 -378.5 305.7 -378.5 305.7 -416.8 372 -512.4 206.3 -435.9 206.3"/>
+  </g>
+</svg>
