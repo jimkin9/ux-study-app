@@ -9,7 +9,7 @@
   --border: #d6ddd3;
   --primary: #7b4c86;
   --primary-strong: #56345f;
-  --summary-color: #8f5a9a;
+  --summary-color: #6f5c76;
   --primary-soft: #eadff0;
   --accent: #28666e;
   --accent-2: #d8644f;
@@ -33,7 +33,7 @@
   --border: #3a453f;
   --primary: #c391d2;
   --primary-strong: #ead8f0;
-  --summary-color: #d7a3e4;
+  --summary-color: #c7aecf;
   --primary-soft: #392442;
   --accent: #8dcfca;
   --accent-2: #f18b79;
@@ -45,7 +45,7 @@
 [data-accent="teal"] {
   --primary: #7b4c86;
   --primary-strong: #56345f;
-  --summary-color: #8f5a9a;
+  --summary-color: #6f5c76;
   --primary-soft: #eadff0;
   --accent: #28666e;
   --accent-2: #d8644f;
@@ -54,7 +54,7 @@
 [data-accent="navy"] {
   --primary: #244f95;
   --primary-strong: #15345f;
-  --summary-color: #2f65b7;
+  --summary-color: #536c91;
   --primary-soft: #dfe8f8;
   --accent: #a84272;
   --accent-2: #d8a34f;
@@ -63,7 +63,7 @@
 [data-accent="plum"] {
   --primary: #8a4f92;
   --primary-strong: #5f3568;
-  --summary-color: #a75bb5;
+  --summary-color: #7c6384;
   --primary-soft: #f0e0f2;
   --accent: #d15e73;
   --accent-2: #2f7d6d;
@@ -72,7 +72,7 @@
 [data-accent="green"] {
   --primary: #2f7d57;
   --primary-strong: #1d5238;
-  --summary-color: #2f8a62;
+  --summary-color: #4e7562;
   --primary-soft: #dceee4;
   --accent: #765aa6;
   --accent-2: #c46d3a;
@@ -81,7 +81,7 @@
 [data-accent="ocean"] {
   --primary: #0f67ff;
   --primary-strong: #063a98;
-  --summary-color: #2876c9;
+  --summary-color: #4e769f;
   --primary-soft: #dce8ff;
   --accent: #00a6a6;
   --accent-2: #77d6ff;
@@ -90,7 +90,7 @@
 [data-accent="sunset"] {
   --primary: #ef6a3a;
   --primary-strong: #963412;
-  --summary-color: #c96545;
+  --summary-color: #9a6a58;
   --primary-soft: #fde4d8;
   --accent: #8d4bb3;
   --accent-2: #f3b13d;
@@ -99,7 +99,7 @@
 [data-accent="candy"] {
   --primary: #ec4899;
   --primary-strong: #9d174d;
-  --summary-color: #c7478b;
+  --summary-color: #9a6682;
   --primary-soft: #fce7f3;
   --accent: #7c3aed;
   --accent-2: #22d3ee;
@@ -108,7 +108,7 @@
 [data-accent="mono-blue"] {
   --primary: #0f67ff;
   --primary-strong: #050505;
-  --summary-color: #245ed1;
+  --summary-color: #4e6eaa;
   --primary-soft: #e8e8e8;
   --accent: #050505;
   --accent-2: #0f67ff;
@@ -307,10 +307,10 @@ img {
 
 .gear-symbol {
   display: block;
-  width: 34px;
-  height: 34px;
+  width: 24px;
+  height: 24px;
   stroke: currentColor;
-  stroke-width: 3;
+  stroke-width: 3.2;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
