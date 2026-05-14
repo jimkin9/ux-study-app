@@ -9,6 +9,7 @@
   --border: #d6ddd3;
   --primary: #7b4c86;
   --primary-strong: #56345f;
+  --summary-color: #9f6fab;
   --primary-soft: #eadff0;
   --accent: #28666e;
   --accent-2: #d8644f;
@@ -32,6 +33,7 @@
   --border: #3a453f;
   --primary: #c391d2;
   --primary-strong: #ead8f0;
+  --summary-color: #e0b5ee;
   --primary-soft: #392442;
   --accent: #8dcfca;
   --accent-2: #f18b79;
@@ -43,6 +45,7 @@
 [data-accent="teal"] {
   --primary: #7b4c86;
   --primary-strong: #56345f;
+  --summary-color: #9f6fab;
   --primary-soft: #eadff0;
   --accent: #28666e;
   --accent-2: #d8644f;
@@ -51,6 +54,7 @@
 [data-accent="navy"] {
   --primary: #244f95;
   --primary-strong: #15345f;
+  --summary-color: #3f78d6;
   --primary-soft: #dfe8f8;
   --accent: #a84272;
   --accent-2: #d8a34f;
@@ -59,6 +63,7 @@
 [data-accent="plum"] {
   --primary: #8a4f92;
   --primary-strong: #5f3568;
+  --summary-color: #b869c2;
   --primary-soft: #f0e0f2;
   --accent: #d15e73;
   --accent-2: #2f7d6d;
@@ -67,6 +72,7 @@
 [data-accent="green"] {
   --primary: #2f7d57;
   --primary-strong: #1d5238;
+  --summary-color: #42a874;
   --primary-soft: #dceee4;
   --accent: #765aa6;
   --accent-2: #c46d3a;
@@ -75,6 +81,7 @@
 [data-accent="ocean"] {
   --primary: #0f67ff;
   --primary-strong: #063a98;
+  --summary-color: #2387ff;
   --primary-soft: #dce8ff;
   --accent: #00a6a6;
   --accent-2: #77d6ff;
@@ -83,6 +90,7 @@
 [data-accent="sunset"] {
   --primary: #ef6a3a;
   --primary-strong: #963412;
+  --summary-color: #f07f51;
   --primary-soft: #fde4d8;
   --accent: #8d4bb3;
   --accent-2: #f3b13d;
@@ -91,6 +99,7 @@
 [data-accent="candy"] {
   --primary: #ec4899;
   --primary-strong: #9d174d;
+  --summary-color: #f16ab0;
   --primary-soft: #fce7f3;
   --accent: #7c3aed;
   --accent-2: #22d3ee;
@@ -99,6 +108,7 @@
 [data-accent="mono-blue"] {
   --primary: #0f67ff;
   --primary-strong: #050505;
+  --summary-color: #1f7cff;
   --primary-soft: #e8e8e8;
   --accent: #050505;
   --accent-2: #0f67ff;
@@ -114,6 +124,7 @@
   --border: #000000;
   --primary: #0047ff;
   --primary-strong: #002aa0;
+  --summary-color: #0047ff;
   --primary-soft: #e5ecff;
   --accent: #b00020;
   --accent-2: #006b3f;
@@ -625,7 +636,7 @@ img {
 
 .card-summary,
 .card-summary strong {
-  color: var(--primary) !important;
+  color: var(--summary-color) !important;
 }
 
 .complete-check {
